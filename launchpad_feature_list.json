@@ -2,7 +2,7 @@
   "catalog_version": "1.1.0",
   "last_updated": "2026-01-13",
   "description": "Meraki Launchpad Feature and Demo Catalog",
-  "total_demos": 69,
+  "total_demos": 70,
   "demos": [
     {
       "id": 1,
@@ -1224,11 +1224,35 @@
       "feature": "Cloud Fabric EVPN",
       "solution": null,
       "stage": "PROD",
-      "tags": [],
+      "tags": [
+        "vxlan"
+      ],
       "product": "Platform",
       "network": "Austin",
       "notes": null,
-      "resources": null
+      "resources": {
+        "live_dashboard": "https://n398.dashboard.meraki.com/o/d029Cc/manage/organization/evpn_vxlan_fabric/details/787004034882994179/summary/bgp-peers",
+        "dcloud_instant_demo": "NA",
+        "community_post": "https://community.meraki.com/t5/Meraki-Demo/New-Enterprise-Capability-Demo-Cisco-Cloud-Managed-EVPN-Fabric/m-p/289605#M203"
+      }
+    },
+    {
+      "id": 72,
+      "name": "abc",
+      "feature": "abc",
+      "solution": null,
+      "stage": "PROD",
+      "tags": [
+        "vxlan"
+      ],
+      "product": "Platform",
+      "network": "Austin",
+      "notes": null,
+      "resources": {
+        "live_dashboard": "https://n398.dashboard.meraki.com/o/d029Cc/manage/organization/evpn_vxlan_fabric/details/787004034882994179/summary/bgp-peers",
+        "dcloud_instant_demo": "NA",
+        "community_post": "https://community.meraki.com/t5/Meraki-Demo/New-Enterprise-Capability-Demo-Cisco-Cloud-Managed-EVPN-Fabric/m-p/289605#M203"
+      }
     }
   ]
 }
