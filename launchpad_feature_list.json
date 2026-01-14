@@ -1,0 +1,1221 @@
+{
+  "catalog_version": "1.1.0",
+  "last_updated": "2026-01-14",
+  "description": "Meraki Launchpad Feature and Demo Catalog",
+  "total_demos": 69,
+  "demos": [
+    {
+      "id": 1,
+      "name": "SD-WAN",
+      "feature": "SD-WAN",
+      "solution": null,
+      "stage": "PROD",
+      "tags": [
+        "sdwan",
+        "autovpn",
+        "auto vpn",
+        "dcloud"
+      ],
+      "product": "MX",
+      "network": "Multiple",
+      "notes": null,
+      "resources": {
+        "dcloud_instant_demo": "https://dcloud2.cisco.com/content/instantdemo/cisco-meraki-sd-wan-v2-instant-demo-partner"
+      }
+    },
+    {
+      "id": 2,
+      "name": "Client Visibility",
+      "feature": "Client Visibility",
+      "solution": null,
+      "stage": "PROD",
+      "tags": [
+        "client"
+      ],
+      "product": "Platform",
+      "network": null,
+      "notes": null,
+      "resources": {
+        "dcloud_instant_demo": "https://dcloud2.cisco.com/content/instantdemo/cisco-meraki-launchpad-instant-demo"
+      }
+    },
+    {
+      "id": 3,
+      "name": "Meraki Health",
+      "feature": "Meraki Health",
+      "solution": null,
+      "stage": "PROD",
+      "tags": [
+        "health"
+      ],
+      "product": "MR",
+      "network": "London",
+      "notes": "MerakiHealth",
+      "resources": null
+    },
+    {
+      "id": 4,
+      "name": "Topology",
+      "feature": "Topology",
+      "solution": null,
+      "stage": "PROD",
+      "tags": [],
+      "product": "Platform",
+      "network": "London",
+      "notes": null,
+      "resources": {
+        "live_dashboard": "https://n398.meraki.com/London/n/Sn98Fcvc/manage/nodes/topology/l2_topology",
+        "dcloud_instant_demo": "https://dcloud2.cisco.com/content/instantdemo/cisco-meraki-launchpad-instant-demo"
+      }
+    },
+    {
+      "id": 5,
+      "name": "Group polices",
+      "feature": "Group polices",
+      "solution": null,
+      "stage": "PROD",
+      "tags": [],
+      "product": "Platform",
+      "network": null,
+      "notes": null,
+      "resources": {
+        "dcloud_instant_demo": "https://dcloud2-sjc.cisco.com/content/instantdemo/cisco-meraki-dynamic-access-control-v2-for-partners-instant-demo?returnPathTitleKey=content-view"
+      }
+    },
+    {
+      "id": 6,
+      "name": "iPSK",
+      "feature": "iPSK",
+      "solution": null,
+      "stage": "PROD",
+      "tags": [
+        "wifi"
+      ],
+      "product": "MR",
+      "network": "Chicago",
+      "notes": null,
+      "resources": {
+        "live_dashboard": "https://n398.meraki.com/Chicago/n/HfhVmavc/manage/configure/access_control/2"
+      }
+    },
+    {
+      "id": 7,
+      "name": "OSPF",
+      "feature": "OSPF",
+      "solution": null,
+      "stage": "PROD",
+      "tags": [],
+      "product": "MS",
+      "network": "San Francisco",
+      "notes": null,
+      "resources": {
+        "live_dashboard": "https://n398.meraki.com/San-Francisco/n/QkiM3cvc/manage/configure/ospf"
+      }
+    },
+    {
+      "id": 8,
+      "name": "Physical stacking",
+      "feature": "Physical stacking",
+      "solution": null,
+      "stage": "PROD",
+      "tags": [],
+      "product": "MS",
+      "network": "San Francisco",
+      "notes": null,
+      "resources": {
+        "live_dashboard": "https://n398.meraki.com/San-Francisco/n/QkiM3cvc/manage/configure/switch_stacks"
+      }
+    },
+    {
+      "id": 9,
+      "name": "Hybrid workforce",
+      "feature": "Hybrid workforce",
+      "solution": null,
+      "stage": "PROD",
+      "tags": [
+        "teleworker",
+        "wfh",
+        "remote"
+      ],
+      "product": "Platform",
+      "network": "Multiple",
+      "notes": null,
+      "resources": {
+        "live_dashboards": [
+          "https://n398.meraki.com/San-Francisco/n/rFTcyavc/manage/usage/list/overview?timespanClient=604800#c=zac100acf&timespan=604800",
+          "https://n398.meraki.com/Teleworker-Marib/n/hhfHFdvc/manage/usage/list/overview?timespanClient=604800#c=k4f7ded&timespan=604800"
+        ]
+      }
+    },
+    {
+      "id": 10,
+      "name": "SASE",
+      "feature": "SASE",
+      "solution": null,
+      "stage": "PROD",
+      "tags": [
+        "umbrella",
+        "segraki",
+        "sig",
+        "dcloud"
+      ],
+      "product": "MX",
+      "network": "Multiple",
+      "notes": null,
+      "resources": {
+        "live_dashboard": "https://n398.meraki.com/o/d029Cc/manage/cloud_on_ramps/deployments",
+        "dcloud_instant_demo": "https://dcloud2-sjc.cisco.com/content/instantdemo/cisco-meraki-secure-edge-instant-demo?returnPathTitleKey=content-view"
+      }
+    },
+    {
+      "id": 11,
+      "name": "Security center",
+      "feature": "Security center",
+      "solution": null,
+      "stage": "PROD",
+      "tags": [
+        "idsips",
+        "malware",
+        "security"
+      ],
+      "product": "MX",
+      "network": "Chicago",
+      "notes": null,
+      "resources": {
+        "live_dashboard": "https://n398.meraki.com/Chicago/n/9WEszcvc/manage/security/summary"
+      }
+    },
+    {
+      "id": 12,
+      "name": "Adaptive Policy",
+      "feature": "Adaptive Policy",
+      "solution": null,
+      "stage": "PROD",
+      "tags": [
+        "adp"
+      ],
+      "product": "MS",
+      "network": "San Francisco - Adaptive Policy",
+      "notes": "adp",
+      "resources": {
+        "live_dashboard": "https://n398.meraki.com/San-Francisco-Ad/n/0wo4Adog/manage/usage/list?q=adp",
+        "dcloud_instant_demo": "https://dcloud2.cisco.com/content/instantdemo/cisco-meraki-dynamic-access-control-instant-demo",
+        "community_post": "https://community.meraki.com/t5/Meraki-Demo/Adaptive-Policy-Demo-on-Meraki-Launchpad/m-p/215791#M7"
+      }
+    },
+    {
+      "id": 13,
+      "name": "MS Group Policy ACL",
+      "feature": "MS Group Policy ACL",
+      "solution": null,
+      "stage": "PROD",
+      "tags": [
+        "msacl",
+        "MS group policy ACL"
+      ],
+      "product": "MS",
+      "network": "London",
+      "notes": "msacl",
+      "resources": {
+        "live_dashboard": "https://lucid.app/lucidchart/ebbfd5cf-382b-4173-8f77-3c93f4e9dfe5/edit?invitationId=inv_527a4f36-bb30-409d-ac71-7162433e3338&page=Q4S44FcnWQLi#",
+        "dcloud_instant_demo": "https://dcloud2.cisco.com/content/instantdemo/cisco-meraki-dynamic-access-control-instant-demo"
+      }
+    },
+    {
+      "id": 14,
+      "name": "SecurePort",
+      "feature": "SecurePort",
+      "solution": null,
+      "stage": "PROD",
+      "tags": [
+        "SecureConnect",
+        "SecurePort"
+      ],
+      "product": "MS",
+      "network": "Chicago",
+      "notes": null,
+      "resources": {
+        "live_dashboard": "https://n398.meraki.com/Chicago-switch/n/XT1Mzbog/manage/nodes/new_list/247165644800448/ports/3?timespan=86400"
+      }
+    },
+    {
+      "id": 15,
+      "name": "Dynamic Access Control",
+      "feature": "Dynamic Access Control",
+      "solution": null,
+      "stage": "PROD",
+      "tags": [
+        "sentry policy",
+        "radius",
+        "sm",
+        "system manager",
+        "dcloud"
+      ],
+      "product": "Platform",
+      "network": "Multiple",
+      "notes": null,
+      "resources": {
+        "dcloud_instant_demo": "https://dcloud2.cisco.com/content/instantdemo/cisco-meraki-dynamic-access-control-instant-demo"
+      }
+    },
+    {
+      "id": 16,
+      "name": "Configuration template",
+      "feature": "Configuration template",
+      "solution": null,
+      "stage": "PROD",
+      "tags": [
+        "template"
+      ],
+      "product": "Platform",
+      "network": null,
+      "notes": null,
+      "resources": {
+        "live_dashboard": "https://n398.meraki.com/o/d029Cc/manage/organization/templates"
+      }
+    },
+    {
+      "id": 17,
+      "name": "Vehicle detection",
+      "feature": "Vehicle detection",
+      "solution": null,
+      "stage": "PROD",
+      "tags": [
+        "analytic"
+      ],
+      "product": "MV",
+      "network": "San Francisco",
+      "notes": null,
+      "resources": {
+        "live_dashboard": "https://n398.meraki.com/San-Francisco/n/7xCNxavc/manage/nodes/new_list/189218146156652/analytics?timespan=86400"
+      }
+    },
+    {
+      "id": 18,
+      "name": "VPN exclusion",
+      "feature": "VPN exclusion",
+      "solution": null,
+      "stage": "PROD",
+      "tags": [
+        "breakout"
+      ],
+      "product": "MX",
+      "network": "Sydney",
+      "notes": null,
+      "resources": {
+        "live_dashboard": "https://n398.meraki.com/Sydney-appliance/n/NyriCdvc/manage/configure/traffic_shaping/0"
+      }
+    },
+    {
+      "id": 19,
+      "name": "Concentrator",
+      "feature": "Concentrator",
+      "solution": null,
+      "stage": "PROD",
+      "tags": [
+        "vpn",
+        "passthrough"
+      ],
+      "product": "MX",
+      "network": "Datacenter-NA-Concentrator",
+      "notes": null,
+      "resources": {
+        "live_dashboard": "https://n398.meraki.com/Datacenter-NA-Co/n/6JVN7bvc/manage/configure/router_settings2"
+      }
+    },
+    {
+      "id": 20,
+      "name": "vMX",
+      "feature": "vMX",
+      "solution": null,
+      "stage": "PROD",
+      "tags": [
+        "aws"
+      ],
+      "product": "MX",
+      "network": "Datacenter-CA",
+      "notes": null,
+      "resources": {
+        "live_dashboard": "https://n398.meraki.com/Datacenter-CA/n/L7QQOcvc/manage/nodes/new_wired_status/summary?timespan=86400"
+      }
+    },
+    {
+      "id": 21,
+      "name": "Cellular",
+      "feature": "Cellular",
+      "solution": null,
+      "stage": "PROD",
+      "tags": [
+        "mg",
+        "4G",
+        "lte"
+      ],
+      "product": "Multiple",
+      "network": "Multiple",
+      "notes": null,
+      "resources": {
+        "live_dashboards": [
+          "https://n398.meraki.com/New-York/n/hMVTJbog/manage/nodes/new_list/48649279177127/summary?timespan=86400",
+          "https://n398.meraki.com/Chicago-applianc/n/9WEszcvc/manage/nodes/new_wired_status/summary?timespan=86400"
+        ]
+      }
+    },
+    {
+      "id": 22,
+      "name": "HD wifi",
+      "feature": "HD wifi",
+      "solution": null,
+      "stage": "PROD",
+      "tags": [
+        "density"
+      ],
+      "product": "MR",
+      "network": "London",
+      "notes": null,
+      "resources": {
+        "live_dashboard": "https://n398.meraki.com/London/n/8-8gZdvc/manage/configure/radio3/profiles"
+      }
+    },
+    {
+      "id": 23,
+      "name": "Firmware",
+      "feature": "Firmware",
+      "solution": null,
+      "stage": "PROD",
+      "tags": [
+        "firmware"
+      ],
+      "product": "Platform",
+      "network": null,
+      "notes": null,
+      "resources": {
+        "live_dashboard": "https://n398.meraki.com/o/d029Cc/manage/organization/firmware_upgrades/overview"
+      }
+    },
+    {
+      "id": 24,
+      "name": "License",
+      "feature": "License",
+      "solution": null,
+      "stage": "PROD",
+      "tags": [
+        "license",
+        "pdl"
+      ],
+      "product": "Platform",
+      "network": null,
+      "notes": null,
+      "resources": {
+        "live_dashboard": "https://n398.meraki.com/o/d029Cc/manage/organization/license/overview"
+      }
+    },
+    {
+      "id": 25,
+      "name": "Meraki Launchpad Core Demos",
+      "feature": "Meraki Launchpad Core Demos",
+      "solution": null,
+      "stage": "PROD",
+      "tags": [
+        "dcloud"
+      ],
+      "product": "Platform",
+      "network": null,
+      "notes": null,
+      "resources": {
+        "dcloud_instant_demo": "https://dcloud2.cisco.com/content/instantdemo/cisco-meraki-launchpad-instant-demo"
+      }
+    },
+    {
+      "id": 28,
+      "name": "Cisco Meraki Network and Application Assurance",
+      "feature": "Cisco Meraki Network and Application Assurance",
+      "solution": null,
+      "stage": "PROD",
+      "tags": [
+        "dcloud",
+        "insight",
+        "meraki insight"
+      ],
+      "product": "Platform",
+      "network": null,
+      "notes": null,
+      "resources": {
+        "live_dashboard": "https://n398.meraki.com/o/d029Cc/manage/app_analytics/health?t1=1636549920",
+        "dcloud_instant_demo": "https://dcloud2.cisco.com/content/instantdemo/cisco-meraki-network-and-application-assurance-v2-for-partners-instant-demo"
+      }
+    },
+    {
+      "id": 29,
+      "name": "MT Sensors ",
+      "feature": "MT Sensors ",
+      "solution": null,
+      "stage": "PROD",
+      "tags": [
+        "mt",
+        "sensor",
+        "door",
+        "temperature",
+        "humidity",
+        "water",
+        "environment"
+      ],
+      "product": "MT",
+      "network": "San Francisco",
+      "notes": null,
+      "resources": {
+        "live_dashboard": "https://n398.meraki.com/San-Francisco/n/YR-Fjcvc/manage/nodes/new_list/sensors/overview"
+      }
+    },
+    {
+      "id": 30,
+      "name": "MV52 Ultra Longrange Camera",
+      "feature": "MV52 Ultra Longrange Camera",
+      "solution": null,
+      "stage": "PROD",
+      "tags": [
+        "longrange",
+        "new"
+      ],
+      "product": "MV",
+      "network": "San Francisco",
+      "notes": null,
+      "resources": {
+        "live_dashboards": [
+          "https://n398.meraki.com/San-Francisco/n/7xCNxavc/manage/video/video_wall/787004034882994544",
+          "https://n398.meraki.com/San-Francisco/n/7xCNxavc/manage/nodes/new_list/185021236974519/video?timespan=86400&q=mv52"
+        ]
+      }
+    },
+    {
+      "id": 31,
+      "name": "WIFI6 APs",
+      "feature": "WIFI6 APs",
+      "solution": null,
+      "stage": "PROD",
+      "tags": [
+        "wifi 6"
+      ],
+      "product": "MR",
+      "network": "San Francisco",
+      "notes": null,
+      "resources": {
+        "live_dashboard": "https://n398.meraki.com/San-Francisco-wi/n/rFTcyavc/manage/nodes/new_list?q=wifi6"
+      }
+    },
+    {
+      "id": 32,
+      "name": "Summary Report",
+      "feature": "Summary Report",
+      "solution": null,
+      "stage": "PROD",
+      "tags": [],
+      "product": "Platform",
+      "network": null,
+      "notes": null,
+      "resources": {
+        "live_dashboard": "https://n398.meraki.com/o/d029Cc/manage/new_reports"
+      }
+    },
+    {
+      "id": 33,
+      "name": "MT MQTT",
+      "feature": "MT MQTT",
+      "solution": null,
+      "stage": "PROD",
+      "tags": [
+        "mqtt"
+      ],
+      "product": "MT",
+      "network": "San Francisco",
+      "notes": null,
+      "resources": {
+        "live_dashboard": "https://n398.meraki.com/San-Francisco/n/YR-Fjcvc/manage/nodes/new_list/sensors/mqttBrokers"
+      }
+    },
+    {
+      "id": 34,
+      "name": "MR MQTT",
+      "feature": "MR MQTT",
+      "solution": null,
+      "stage": "PROD",
+      "tags": [
+        "mqtt"
+      ],
+      "product": "MR",
+      "network": "San Francisco",
+      "notes": null,
+      "resources": {
+        "live_dashboard": "https://n398.meraki.com/San-Francisco/n/rFTcyavc/manage/configure/iot_radio_settings#/mqtt"
+      }
+    },
+    {
+      "id": 35,
+      "name": "SD-internet",
+      "feature": "SD-internet",
+      "solution": null,
+      "stage": "PROD",
+      "tags": [
+        "SD-internet"
+      ],
+      "product": "MX",
+      "network": "Sydney",
+      "notes": "SD-internet",
+      "resources": {
+        "live_dashboard": "https://n398.meraki.com/Sydney-appliance/n/NyriCdvc/manage/configure/traffic_shaping/0"
+      }
+    },
+    {
+      "id": 36,
+      "name": "AnyConnect",
+      "feature": "AnyConnect",
+      "solution": null,
+      "stage": "PROD",
+      "tags": [
+        "vpn",
+        "anyconnect",
+        "client vpn"
+      ],
+      "product": "MX",
+      "network": "San Francisco",
+      "notes": null,
+      "resources": {
+        "live_dashboards": [
+          "https://n398.meraki.com/San-Francisco/n/X3S4bcvc/manage/configure/client_vpn_settings",
+          "https://n398.meraki.com/Datacenter-CA/n/uTBZTdog/manage/configure/client_vpn_settings"
+        ]
+      }
+    },
+    {
+      "id": 37,
+      "name": "IPv6 on MX",
+      "feature": "IPv6 on MX",
+      "solution": null,
+      "stage": "PROD",
+      "tags": [
+        "ipv6"
+      ],
+      "product": "MX",
+      "network": "Datacenter-CA",
+      "notes": null,
+      "resources": {
+        "live_dashboard": "https://n398.meraki.com/Datacenter-CA/n/uTBZTdog/manage/nodes/new_wired_status/summary?timespan=86400"
+      }
+    },
+    {
+      "id": 38,
+      "name": "Wi-Fi Personal Network",
+      "feature": "Wi-Fi Personal Network",
+      "solution": null,
+      "stage": "PROD",
+      "tags": [
+        "wpn",
+        "private network",
+        ""
+      ],
+      "product": "MR",
+      "network": "Chicago",
+      "notes": null,
+      "resources": {
+        "live_dashboard": "https://n398.meraki.com/Chicago-wireless/n/HfhVmavc/manage/configure/access_control_2/4"
+      }
+    },
+    {
+      "id": 39,
+      "name": "Cloud Monitoring for Catalyst",
+      "feature": "Cloud Monitoring for Catalyst",
+      "solution": null,
+      "stage": "PROD",
+      "tags": [
+        "catalyst",
+        "cat9300",
+        "c9300"
+      ],
+      "product": "Platform",
+      "network": "Sao Paulo",
+      "notes": null,
+      "resources": {
+        "live_dashboard": "https://n398.meraki.com/Sao-Paulo-Cloud-/n/LJurqcog/manage/switches/?from=switching+switches&timespan=86400"
+      }
+    },
+    {
+      "id": 40,
+      "name": "MT14 High Sampling Mode",
+      "feature": "MT14 High Sampling Mode",
+      "solution": null,
+      "stage": "PROD",
+      "tags": [
+        "vape",
+        "fast",
+        "sample"
+      ],
+      "product": "MT",
+      "network": "San Francisco",
+      "notes": null,
+      "resources": {
+        "live_dashboard": "https://n398.meraki.com/San-Francisco/n/YR-Fjcvc/manage/nodes/new_list/sensors/62141616932038/settings?t0=&t1=&timespan=7200"
+      }
+    },
+    {
+      "id": 41,
+      "name": "Port Profiles",
+      "feature": "Port Profiles",
+      "solution": null,
+      "stage": "PROD",
+      "tags": [
+        "profile",
+        "switchport",
+        "profiles"
+      ],
+      "product": "MS",
+      "network": "San Francisco",
+      "notes": null,
+      "resources": {
+        "live_dashboard": "https://n398.meraki.com/San-Francisco/n/QkiM3cvc/manage/configure/switchport_profiles"
+      }
+    },
+    {
+      "id": 42,
+      "name": "Active Application Monitoring",
+      "feature": "Active Application Monitoring",
+      "solution": null,
+      "stage": "PROD",
+      "tags": [
+        "thousandeyes"
+      ],
+      "product": "MX",
+      "network": "Multiple",
+      "notes": null,
+      "resources": {
+        "live_dashboard": "https://n398.meraki.com/o/d029Cc/manage/app_analytics/outage_overview/agents",
+        "community_post": "https://community.meraki.com/t5/Meraki-Demo/Active-Performance-Monitoring-with-ThousandEyes-on-Meraki-MX/m-p/216284#M11"
+      }
+    },
+    {
+      "id": 43,
+      "name": "Auto RF/AI Channel Planning",
+      "feature": "Auto RF/AI Channel Planning",
+      "solution": null,
+      "stage": "PROD",
+      "tags": [
+        "autorf",
+        "AI",
+        "channel planning",
+        "RRM"
+      ],
+      "product": "MR",
+      "network": "London",
+      "notes": null,
+      "resources": {
+        "live_dashboard": "https://n398.meraki.com/London-wireless/n/8-8gZdvc/manage/configure/radio3/autorf"
+      }
+    },
+    {
+      "id": 44,
+      "name": "Secure Connect",
+      "feature": "Secure Connect",
+      "solution": null,
+      "stage": "PROD",
+      "tags": [
+        "SASE"
+      ],
+      "product": "Platform",
+      "network": "Multiple",
+      "notes": null,
+      "resources": {
+        "live_dashboard": "https://n398.meraki.com/o/d029Cc/manage/organization/secure_connect/secure_connect/overview?from=leftnav&menu=secure-connect",
+        "dcloud_instant_demo": "https://dcloud2.cisco.com/content/instantdemo/cisco-secure-connect-instant-demo-v2",
+        "community_post": "https://community.meraki.com/t5/Meraki-Demo/New-Demo-Cisco-Secure-Connect-Instant-Demo-v2/m-p/220835#M29"
+      }
+    },
+    {
+      "id": 45,
+      "name": "Troubleshooting console",
+      "feature": "Troubleshooting console",
+      "solution": null,
+      "stage": "PROD",
+      "tags": [
+        "CLI",
+        "terminal"
+      ],
+      "product": "Platform",
+      "network": "Sao Paulo",
+      "notes": null,
+      "resources": {
+        "live_dashboard": "https://n398.meraki.com/Sao-Paulo-Cloud-/n/LJurqcog/manage/switches/?from=switching+switches&timespan=86400"
+      }
+    },
+    {
+      "id": 46,
+      "name": "Org-wide L7 FW",
+      "feature": "Org-wide L7 FW",
+      "solution": null,
+      "stage": "PROD",
+      "tags": [
+        "org-wide",
+        "firewall"
+      ],
+      "product": "Platform",
+      "network": null,
+      "notes": null,
+      "resources": {
+        "live_dashboard": "https://n398.meraki.com/o/d029Cc/manage/organization/secure_connect/policy/firewall_policies?from=leftnav&menu=organization"
+      }
+    },
+    {
+      "id": 47,
+      "name": "Cloud Monitoring for Catalyst Wireless",
+      "feature": "Cloud Monitoring for Catalyst Wireless",
+      "solution": null,
+      "stage": "PROD",
+      "tags": [
+        "WLC",
+        "catalyst"
+      ],
+      "product": "Platform",
+      "network": "Cloud Monitored Wireless",
+      "notes": null,
+      "resources": {
+        "live_dashboard": "https://n398.meraki.com/Cloud-Monitored-/n/TcTZzaog/manage/wireless_controllers?from=wireless+list"
+      }
+    },
+    {
+      "id": 48,
+      "name": "MT40 power saving",
+      "feature": "MT40 power saving",
+      "solution": null,
+      "stage": "PROD",
+      "tags": [
+        "saving",
+        "sustainability"
+      ],
+      "product": "MT",
+      "network": "San Francisco",
+      "notes": null,
+      "resources": {
+        "live_dashboard": "https://n398.meraki.com/San-Francisco/n/YR-Fjcvc/manage/nodes/new_list/sensors/22674271702403/settings",
+        "community_post": "https://community.meraki.com/t5/Meraki-Demo/MT40-Power-Schedules-and-Sustainability-Reporting-are-available/m-p/230873#M59"
+      }
+    },
+    {
+      "id": 49,
+      "name": "MultiWAN",
+      "feature": "MultiWAN",
+      "solution": null,
+      "stage": "PROD",
+      "tags": [
+        "multiwan"
+      ],
+      "product": "MX",
+      "network": "Sao Paulo",
+      "notes": null,
+      "resources": {
+        "live_dashboard": "https://n398.meraki.com/Sao-Paulo-Cloud-/n/no097dvc/manage/nodes/new_wired_status/uplink?timespan=86400",
+        "community_post": "https://community.meraki.com/t5/Meraki-Demo/MultiWAN-2-Active-1-Backup-uplinks/m-p/228160#M54"
+      }
+    },
+    {
+      "id": 50,
+      "name": "Meraki Subscription Licensing",
+      "feature": "Meraki Subscription Licensing",
+      "solution": null,
+      "stage": "PROD",
+      "tags": [
+        "license",
+        "licensing"
+      ],
+      "product": "Platform",
+      "network": null,
+      "notes": null,
+      "resources": {
+        "dcloud_instant_demo": "https://dcloud2.cisco.com/content/instantdemo/cisco-meraki-network-subscription-licensing-instant-demo"
+      }
+    },
+    {
+      "id": 51,
+      "name": "Meraki US Government Cloud",
+      "feature": "Meraki US Government Cloud",
+      "solution": null,
+      "stage": "PROD",
+      "tags": [
+        "gov",
+        "govcloud",
+        "fedramp"
+      ],
+      "product": "Platform",
+      "network": null,
+      "notes": null,
+      "resources": {
+        "dcloud_instant_demo": "https://dcloud2.cisco.com/content/instantdemo/cisco-meraki-for-government-platform-instant-demo"
+      }
+    },
+    {
+      "id": 52,
+      "name": "Meraki Enterprise Agreement Licensing",
+      "feature": "Meraki Enterprise Agreement Licensing",
+      "solution": null,
+      "stage": "PROD",
+      "tags": [
+        "license",
+        "licensing",
+        "EA"
+      ],
+      "product": "Platform",
+      "network": null,
+      "notes": null,
+      "resources": {
+        "dcloud_instant_demo": "https://dcloud2.cisco.com/content/instantdemo/cisco-meraki-enterprise-agreement-instant-demo"
+      }
+    },
+    {
+      "id": 53,
+      "name": "Interconnect",
+      "feature": "Interconnect",
+      "solution": null,
+      "stage": "PROD",
+      "tags": [
+        "sdwan",
+        "interconnects",
+        "vmanager"
+      ],
+      "product": "Platform",
+      "network": "Multiple",
+      "notes": null,
+      "resources": {
+        "live_dashboard": "https://n398.meraki.com/o/d029Cc/manage/organization/jupiter/interconnects"
+      }
+    },
+    {
+      "id": 54,
+      "name": "AFC",
+      "feature": "AFC",
+      "solution": null,
+      "stage": "PROD",
+      "tags": [
+        "6GHz",
+        "standard power",
+        "GNSS"
+      ],
+      "product": "MR",
+      "network": "San Francisco - AFC",
+      "notes": null,
+      "resources": {
+        "live_dashboard": "https://n398.meraki.com/San-Francisco-AF/n/dO1NNdog/manage/access_points?from=wireless+access_points",
+        "community_post": "https://community.meraki.com/t5/Meraki-Demo/Automatic-Frequency-Coordination-AFC-in-MR30-7/m-p/240353#M75"
+      }
+    },
+    {
+      "id": 55,
+      "name": "Hybrid Campus Fabric",
+      "feature": "Hybrid Campus Fabric",
+      "solution": null,
+      "stage": "PROD",
+      "tags": [
+        "Cloud Fabric",
+        "Hybrid",
+        "Catalyst"
+      ],
+      "product": "Platform",
+      "network": "Sao Paulo",
+      "notes": null,
+      "resources": {
+        "live_dashboard": "https://n398.meraki.com/Sao-Paulo-Cloud-/n/LJurqcog/manage/switches/?from=switching+switches&timespan=86400"
+      }
+    },
+    {
+      "id": 56,
+      "name": "AI-RRM",
+      "feature": "AI-RRM",
+      "solution": null,
+      "stage": "PROD",
+      "tags": [
+        "AI",
+        "RRM"
+      ],
+      "product": "MR",
+      "network": "San Francisco",
+      "notes": null,
+      "resources": {
+        "live_dashboard": "https://n398.meraki.com/San-Francisco-wi/n/rFTcyavc/manage/configure/radio3/autorf"
+      }
+    },
+    {
+      "id": 57,
+      "name": "Meraki and Catalyst Center Global Overview",
+      "feature": "Meraki and Catalyst Center Global Overview",
+      "solution": null,
+      "stage": "PROD",
+      "tags": [
+        "catalyst center",
+        "global overview",
+        "integration"
+      ],
+      "product": "Platform",
+      "network": "Multiple",
+      "notes": null,
+      "resources": {
+        "community_post": "https://community.meraki.com/t5/Meraki-Demo/New-Demo-Meraki-and-Catalyst-Center-Global-Overview/td-p/286974"
+      }
+    },
+    {
+      "id": 58,
+      "name": "AI/AgenticOps Resources",
+      "feature": "AI/AgenticOps Resources",
+      "solution": null,
+      "stage": "PROD",
+      "tags": [
+        "AI",
+        "AgenticOps",
+        "learning",
+        "lab"
+      ],
+      "product": "Platform",
+      "network": null,
+      "notes": null,
+      "resources": {
+        "community_post": "https://community.meraki.com/t5/Meraki-Demo/Demo-Learning-and-Lab-Resources-for-AI-AgenticOps/td-p/284362"
+      }
+    },
+    {
+      "id": 59,
+      "name": "PagerDuty Integration",
+      "feature": "PagerDuty Integration",
+      "solution": null,
+      "stage": "PROD",
+      "tags": [
+        "pagerduty",
+        "integration",
+        "alerts",
+        "simulation"
+      ],
+      "product": "Platform",
+      "network": null,
+      "notes": null,
+      "resources": {
+        "community_post": "https://community.meraki.com/t5/Meraki-Demo/New-Demo-Simulation-Integrating-Meraki-Dashboard-with-PagerDuty/td-p/288421"
+      }
+    },
+    {
+      "id": 60,
+      "name": "CW9179F Access Point",
+      "feature": "CW9179F Access Point",
+      "solution": null,
+      "stage": "PROD",
+      "tags": [
+        "CW9179F",
+        "wifi 7",
+        "802.11be",
+        "catalyst wireless"
+      ],
+      "product": "MR",
+      "network": null,
+      "notes": null,
+      "resources": {
+        "community_post": "https://community.meraki.com/t5/Meraki-Demo/Heralding-the-Cisco-Wireless-CW9179F-Access-Point/td-p/274235"
+      }
+    },
+    {
+      "id": 61,
+      "name": "Client360",
+      "feature": "Client360",
+      "solution": null,
+      "stage": "PROD",
+      "tags": [
+        "client360",
+        "client view",
+        "enhanced",
+        "troubleshooting"
+      ],
+      "product": "Platform",
+      "network": null,
+      "notes": null,
+      "resources": {
+        "community_post": "https://community.meraki.com/t5/Meraki-Demo/Experience-Client360-An-Enhanced-Client-View-on-the-Meraki/td-p/282851"
+      }
+    },
+    {
+      "id": 62,
+      "name": "Cloud Management for Catalyst Switches",
+      "feature": "Cloud Management for Catalyst Switches",
+      "solution": null,
+      "stage": "PROD",
+      "tags": [
+        "catalyst",
+        "cloud config",
+        "ios xe",
+        "switches"
+      ],
+      "product": "MS",
+      "network": null,
+      "notes": null,
+      "resources": {
+        "community_post": "https://community.meraki.com/t5/Meraki-Demo/New-Demo-Cloud-Management-Cloud-Configuration-with-IOS-XE-17-18/td-p/282073"
+      }
+    },
+    {
+      "id": 63,
+      "name": "Advanced Security on vMX",
+      "feature": "Advanced Security on vMX",
+      "solution": null,
+      "stage": "PROD",
+      "tags": [
+        "vmx",
+        "security",
+        "advanced security",
+        "cloud"
+      ],
+      "product": "MX",
+      "network": null,
+      "notes": null,
+      "resources": {
+        "community_post": "https://community.meraki.com/t5/Meraki-Demo/Advanced-Security-on-vMX/td-p/263340"
+      }
+    },
+    {
+      "id": 64,
+      "name": "Catalyst WLC in Launchpad",
+      "feature": "Catalyst WLC in Launchpad",
+      "solution": null,
+      "stage": "PROD",
+      "tags": [
+        "wlc",
+        "catalyst",
+        "wireless controller",
+        "cloud managed"
+      ],
+      "product": "Platform",
+      "network": null,
+      "notes": null,
+      "resources": {
+        "community_post": "https://community.meraki.com/t5/Meraki-Demo/New-cloud-managed-Catalyst-Wireless-LAN-Controllers-in-Launchpad/td-p/280265"
+      }
+    },
+    {
+      "id": 65,
+      "name": "MV53X Outdoor Bullet Camera",
+      "feature": "MV53X Outdoor Bullet Camera",
+      "solution": null,
+      "stage": "PROD",
+      "tags": [
+        "MV53X",
+        "camera",
+        "outdoor",
+        "bullet",
+        "3rd gen"
+      ],
+      "product": "MV",
+      "network": "San Francisco",
+      "notes": null,
+      "resources": {
+        "community_post": "https://community.meraki.com/t5/Meraki-Demo/MV53X-The-3rd-Gen-Outdoor-Bullet-Smart-Camera/td-p/263164"
+      }
+    },
+    {
+      "id": 66,
+      "name": "MS150 Adaptive Policy",
+      "feature": "MS150 Adaptive Policy",
+      "solution": null,
+      "stage": "PROD",
+      "tags": [
+        "MS150",
+        "adaptive policy",
+        "simulation",
+        "switching"
+      ],
+      "product": "MS",
+      "network": null,
+      "notes": null,
+      "resources": {
+        "community_post": "https://community.meraki.com/t5/Meraki-Demo/Demo-Simulation-MS150-Adaptive-Policy/td-p/261717"
+      }
+    },
+    {
+      "id": 67,
+      "name": "SD-WAN Interconnects Simulation",
+      "feature": "SD-WAN Interconnects Simulation",
+      "solution": null,
+      "stage": "PROD",
+      "tags": [
+        "sdwan",
+        "interconnects",
+        "vmanager",
+        "simulation"
+      ],
+      "product": "Platform",
+      "network": "Multiple",
+      "notes": null,
+      "resources": {
+        "community_post": "https://community.meraki.com/t5/Meraki-Demo/Demo-Simulation-Cisco-SD-WAN-Interconnects/td-p/256652"
+      }
+    },
+    {
+      "id": 68,
+      "name": "Zero-Friction Wireless with Wi-Fi 7",
+      "feature": "Zero-Friction Wireless with Wi-Fi 7",
+      "solution": null,
+      "stage": "PROD",
+      "tags": [
+        "wifi 7",
+        "802.11be",
+        "zero friction",
+        "NPI",
+        "wireless"
+      ],
+      "product": "MR",
+      "network": null,
+      "notes": null,
+      "resources": {
+        "community_post": "https://community.meraki.com/t5/Meraki-Demo/NPI-Demo-Zero-Friction-Wireless-with-Wi-Fi-7/td-p/255352"
+      }
+    },
+    {
+      "id": 69,
+      "name": "MT15 Indoor Air Quality Sensor",
+      "feature": "MT15 Indoor Air Quality Sensor",
+      "solution": null,
+      "stage": "PROD",
+      "tags": [
+        "MT15",
+        "air quality",
+        "sensor",
+        "NPI",
+        "indoor"
+      ],
+      "product": "MT",
+      "network": "San Francisco",
+      "notes": null,
+      "resources": {
+        "community_post": "https://community.meraki.com/t5/Meraki-Demo/NPI-MT15-Indoor-Air-Quality-Sensor/td-p/215789"
+      }
+    },
+    {
+      "id": 70,
+      "name": "Meraki Demo Platforms Introduction",
+      "feature": "Meraki Demo Platforms Introduction",
+      "solution": null,
+      "stage": "PROD",
+      "tags": [
+        "demo platforms",
+        "launchpad",
+        "introduction"
+      ],
+      "product": "Platform",
+      "network": null,
+      "notes": null,
+      "resources": {
+        "community_post": "https://community.meraki.com/t5/Meraki-Demo/Introducing-Meraki-Demo-Platforms/td-p/215785"
+      }
+    },
+    {
+      "id": 71,
+      "name": "Cloud Fabric EVPN",
+      "feature": "Cloud Fabric EVPN",
+      "solution": null,
+      "stage": "PROD",
+      "tags": [],
+      "product": "Platform",
+      "network": "Austin",
+      "notes": null,
+      "resources": null
+    }
+  ]
+}
